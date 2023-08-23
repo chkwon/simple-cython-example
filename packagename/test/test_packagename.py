@@ -1,7 +1,7 @@
 import logging
 import unittest
 import numpy as np
-from cython_example_proj import array_sum, tessellate, factorial
+from packagename import array_sum, tessellate, factorial
 
 """
 Some basic tests

@@ -1,5 +1,5 @@
 import numpy as np
-from cython_example_proj import array_sum, tessellate
+from packagename import array_sum, tessellate
 import time
 
 try:  # python2 & python3 compatibility

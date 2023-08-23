@@ -2,7 +2,7 @@ from setuptools import setup, Extension
 from Cython.Distutils import build_ext
 import numpy as np
 
-NAME = "simple-cython-example"
+NAME = "packagename"
 VERSION = "0.1"
 DESCR = "A small template project that shows how to wrap C/C++ code into python using Cython"
 URL = "http://www.google.com"
@@ -13,7 +13,7 @@ EMAIL = "tristanhearn@gmail.com"
 
 LICENSE = "Apache 2.0"
 
-SRC_DIR = "cython_example_proj"
+SRC_DIR = "packagename"
 PACKAGES = [SRC_DIR]
 
 ext_1 = Extension(SRC_DIR + ".wrapped",

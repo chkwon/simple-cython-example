@@ -79,3 +79,11 @@ Unfortunately, sorting the output of cProfile using their API leaves a few optio
 and a profile will be printed, broken down by function, that is sorted by `percall`.
 
 
+
+
+# Additional notes
+
+- `pyproject.toml` contains prerequisites for building this package by `pip install -e .` or `pip install .`
+
+- `timings.py` imports `packagename`.  Since Python searches the same working directory first, `timings.py` script cannot test the installed package on `site-packages` unless it is placed under another folder that cannot directly access the `packagename` fodler. See [The Module Search Plan](https://docs.python.org/3/tutorial/modules.html#the-module-search-path).
+

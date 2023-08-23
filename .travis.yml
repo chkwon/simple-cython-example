@@ -11,4 +11,4 @@ install:
     - python setup.py develop
 
 script:
-  - pytest cython_example_proj
+  - pytest packagename
